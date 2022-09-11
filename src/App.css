@@ -1,0 +1,32 @@
+.newFont {
+    font-family: "Penumbra";
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.mainSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-p{
+    opacity: 0.75
+}
+
+.input-group-text{
+padding: 6px!important;
+}
+

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Penumbra";
+    src: local("Penumbra"),
+      url("../fonts/Penumbra-Sans-Std-Bold.otf") format("otf");
+  }
+
+  .new-font{
+    font-family: "Penumbra";
+  }
