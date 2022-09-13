@@ -36,62 +36,42 @@
     padding: 6px !important;
 }
 
-.inputOfSearch .nosubmit {
-    width: 578px;
-    padding: 15px;
-    border: 2px solid #52AB84;
-    border-left: none;
-    border-radius: 4px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+.dropdown-style{
+    background-color: white!important;
+    color: black!important;
+    border: 2px solid #52AB84 !important;
+    border-radius: 3px!important;
+    font-weight: 500!important;
+    width: 152px!important;
+    padding: 10px 17px!important;
+    border-top-right-radius: 0!important;
+    border-bottom-right-radius: 0!important;
 }
 
-
-.inputOfSearch svg{
-    position: absolute;
-    font-size: 26px;
-}
-
-.nosubmit:focus {
-    outline: none !important;
-}
-
-.nosubmit::placeholder {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #90A0B2;
-}
-
-.search-input {
-    display: flex;
-}
-
-.dropdown-btn svg {
-    font-size: 17px;
-    margin-left: 10px;
-    cursor: pointer;
-}
-
-.dropdown-h2 {
-    font-size: 19px !important;
-    font-weight: 500 !important;
-}
-
-.dropdown-btn {
-    display: flex;
-    align-items: center;
-    border: 2px solid #52AB84;
-    border-radius: 3px;
-    padding: 10px 18px;
-    justify-content: center;
-    align-items: center;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-
-input.nosubmit {
+.input-style{
+    padding: 10px 17px!important;
+    border: 2px solid #52AB84!important;
+    border-left: none!important;
+    border-radius: 4px!important;
+    border-top-left-radius: 0!important;
+    border-bottom-left-radius: 0!important;
     background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat right 17px center;
-  }
+}
+
+.form-control:focus {
+    border-color: #52AB84 !important;
+    box-shadow: none!important;
+}
+
+.input-style::placeholder {
+    font-family: 'Inter'!important;
+    font-style: normal!important;
+    font-weight: 500!important;
+    font-size: 15px!important;
+    color: #90A0B2!important;
+}
+
+.wrapper{
+    display: flex;
+    width: 59%;
+}
