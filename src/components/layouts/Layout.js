@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './Header'
+import HowItWork from './HowItWork'
 import { MainSection } from './MainSection'
 
 export const Layout = () => {
@@ -7,6 +8,7 @@ export const Layout = () => {
     <div>
         <Header />
         <MainSection />
+        <HowItWork />
     </div>
   )
 }
