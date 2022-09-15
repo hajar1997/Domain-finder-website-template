@@ -2,7 +2,7 @@ import React from 'react';
 import SearchInput from '../SearchInput';
 import ViewMoreJob from '../ViewMoreJob';
 
-export const MainSection = () => {
+export const MainSection = (props) => {
 return (
 <div>
     <section className='mainSec vh-100 container'>
@@ -11,7 +11,7 @@ return (
         <p className='fs-6 main-p'>Millions of people are searching for companies, domains, meta tags, company names and etc., on <br /> Domain finder.
             Try today! <b>1 000 000</b> data for your search.</p>
         </div>
-        <SearchInput />
+        <SearchInput  />
         <ViewMoreJob />
     </section>
 </div>

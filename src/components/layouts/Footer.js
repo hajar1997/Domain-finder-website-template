@@ -7,7 +7,7 @@ DropdownMenu,
 DropdownItem } from 'reactstrap';
 
 
-const Footer = ({ direction, ...args }) => {
+const Footer = ({ direction, props, }) => {
 const [dropdownOpen, setDropdownOpen] = useState(false);
 
 const toggle = () => setDropdownOpen((prevState) => !prevState);
