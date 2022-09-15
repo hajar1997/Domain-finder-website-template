@@ -1,7 +1,7 @@
 import React from 'react';
-import {Input,Button} from 'reactstrap';
+import {Input,Button,InputGroup,InputGroupText} from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronDown} from '@fortawesome/free-solid-svg-icons'
+import { faChevronDown,faSearch} from '@fortawesome/free-solid-svg-icons'
 
 function SearchInput() {
 return (
@@ -9,7 +9,12 @@ return (
     <Button className='dropdown-style d-flex align-items-center text-wrap'>Resources
         <FontAwesomeIcon className='ms-3' icon={faChevronDown} />
     </Button>
-    <Input className='input-style w-75 text-wrap' placeholder='Search something...' />
+    <InputGroup>
+        <Input className='input-style' placeholder='Search anything...'></Input>
+        <InputGroupText className='input-text-style'>
+            <FontAwesomeIcon className=' pe-2 search-icon' icon={faSearch} />
+        </InputGroupText>
+    </InputGroup>
 </div>
 );
 
