@@ -1,29 +1,42 @@
 import React from 'react'
 // import Footer from '../layouts/Footer';
-import { Col, Row,Divider } from 'antd';
+import { Container, Row, Col } from 'reactstrap';
 import SearchPageHeader from '../SearchPageHeader';
 import '../../assets/styles/search.css';
 import SearchPageSearchInput from '../SearchPageSearchInput';
 import FiltersHeader from '../FiltersHeader';
 import CompanySideMenu from '../CompanySideMenu';
+import CountrySideMenu from '../CountrySideMenu';
+import MetatagsMenu from '../MetatagsMenu';
+import AlexaPointsMenu from '../AlexaPointsMenu';
+import ColorsMenu from '../ColorsMenu';
+import  Footer  from '../layouts/Footer';
+import SearchResults from '../SearchResults';
 
 
 const Search = () => {
 return (
-  <div>
-    {/* <Divider orientation="left">Left</Divider> */}
+<div>
   <SearchPageHeader />
   <SearchPageSearchInput />
+  <Container>
     <Row>
-      <Col flex={2}>
-        <FiltersHeader />
-        <CompanySideMenu />
-
+      <FiltersHeader />
+      <Col xs="3" className='side-menu-mobile'>
+      <CompanySideMenu />
+      <CountrySideMenu />
+      <MetatagsMenu />
+      <AlexaPointsMenu />
+      <ColorsMenu />
       </Col>
-      <Col flex={3}>
-
+      <Col xs="9">
+        <SearchResults />
       </Col>
     </Row>
+  </Container>
+  <Footer />
+
+  {/* <Divider orientation="left">Left</Divider> */}
 </div>
 )
 }
