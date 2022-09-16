@@ -16,7 +16,7 @@ return (
     <InputGroup>
         <Input className='input-style' placeholder='Search anything...'></Input>
         <InputGroupText className='input-text-style'>
-            <FontAwesomeIcon onClick={()=> navigate('search')} className='pe-2 search-icon' icon={faSearch} />
+            <FontAwesomeIcon onClick={()=> navigate('search')} className='pe-2' icon={faSearch} />
         </InputGroupText>
     </InputGroup>
 </div>
