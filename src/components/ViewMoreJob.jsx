@@ -29,29 +29,6 @@ return (
             </Col>
         </Row>
     </Container>
-    {/* <div className='top-searchs mt-4'>
-        <div className="search-header">
-            <h6>Top searches: </h6>
-        </div>
-        <div className="search-topics">
-            <h6>development</h6>
-        </div>
-        <div className="search-topics">
-            <h6>agile</h6>
-        </div>
-        <div className="search-topics">
-            <h6>design</h6>
-        </div>
-        <div className="search-topics">
-            <h6>finance</h6>
-        </div>
-        <div className="search-topics">
-            <h6>startup</h6>
-        </div>
-        <div className="search-topics">
-            <h6>delivery</h6>
-        </div>
-    </div> */}
 </div>
 )
 }

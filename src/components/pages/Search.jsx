@@ -1,5 +1,4 @@
-import React from 'react'
-// import Footer from '../layouts/Footer';
+import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import SearchPageHeader from '../SearchPageHeader';
 import '../../assets/styles/search.css';
@@ -20,7 +19,7 @@ return (
   <SearchPageHeader />
   <SearchPageSearchInput />
   <Container>
-    <Row>
+    <Row className='SearchRowLayout'>
       <FiltersHeader />
       <Col xs="3" className='side-menu-mobile'>
       <CompanySideMenu />
@@ -31,12 +30,13 @@ return (
       </Col>
       <Col xs="9">
         <SearchResults />
+        <SearchResults />
+        <SearchResults />
+        <SearchResults />
       </Col>
     </Row>
   </Container>
   <Footer />
-
-  {/* <Divider orientation="left">Left</Divider> */}
 </div>
 )
 }

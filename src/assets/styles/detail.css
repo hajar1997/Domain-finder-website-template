@@ -1,0 +1,150 @@
+.detail-dropdown-style {
+    background-color: rgba(255, 255, 255, 0.03) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 3px !important;
+    font-weight: 400 !important;
+    width: 152px !important;
+    padding: 10px 17px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.detail-input-style {
+    position: relative;
+    padding: 10px 17px !important;
+    background-color: rgba(255, 255, 255, 0.03) !important;
+    border: none !important;
+    border-left: none !important;
+    border-radius: 4px !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-right: none !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+
+.detail-input-style::placeholder {
+    font-family: 'Inter' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    color: white !important;
+    opacity: .6;
+}
+
+.detail-input-text-style {
+    background-color: rgba(255, 255, 255, 0.03) !important;
+    cursor: pointer;
+    color: white;
+    border: none !important;
+}
+
+.detail-search-button {
+    border-left: none !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.detail-page-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.detail-search-input-wrapper {
+    display: flex;
+    width: 50%;
+}
+
+.dtl-page-header {
+    background: #52AB84;
+    height: 158px;
+}
+
+.dtl-search-card {
+    width: 100%;
+
+}
+
+
+.domain-registrar-style {
+    margin-top: 6% !important;
+    background: #FFFFFF;
+    border: 1px solid #E8E7E8;
+    padding: 20px;
+}
+
+.domain-header-wrapper {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.domain-header-wrapper h6 {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+}
+
+.domain-header-wrapper a {
+    color: black;
+}
+
+.whois-style {
+    margin-top: 6% !important;
+    background: #FFFFFF;
+    border: 1px solid #E8E7E8;
+    padding: 20px;
+}
+
+.whois-wrapper h6 {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+}
+
+.ant-tabs-ink-bar {
+    position: absolute;
+    background: #52AB84 !important;
+    pointer-events: none;
+}
+
+.ant-tabs-tab {
+    color: black !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #52AB84 !important;
+    text-shadow: currentColor !important;
+}
+
+.ant-tabs-tab-btn:focus {
+    color: #52AB84;
+}
+
+.ant-tabs-extra-content {
+    display: none;
+}
+
+.ant-card-bordered {
+    border: none;
+}
+
+.whois-ul {
+    list-style: none;
+    display: flex;
+    gap: 90px;
+}
+
+.lists-of-info li {
+    color: #8A8A8A !important;
+}
+
+@media (max-width: 991px) {
+    .detail-search-input-wrapper {
+        display: none;
+    }
+
+    .dtl-search-card {}
+}

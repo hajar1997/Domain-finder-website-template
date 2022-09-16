@@ -1,14 +1,12 @@
 import React from 'react';
 import adobe from '../assets/images/Base.png';
 import aLogo from '../assets/images/Alexa_Internet_logo 1.png';
-import { useNavigate } from "react-router-dom";
 
 
-const SearchResults = () => {
-    const navigate = useNavigate();
+const DetailPageSearchResults = () => {
     return(
 <div>
-    <div className='search-result-card'>
+    <div className='search-result-card dtl-search-card'>
         <div className="search-result-header-wrapper">
             <div className="result-first-part">
                 <div className="result-logo">
@@ -31,20 +29,12 @@ const SearchResults = () => {
         </div>
         <hr className='search-result-hr' />
         <div className="search-result-body">
-            <h1><span onClick={()=> navigate('detail')}>Adobe</span>: Creative, marketing and document management ...</h1>
+            <h1><span>Adobe</span>: Creative, marketing and document management ...</h1>
             <p><span>Adobe</span> is changing the world through digital experiences. We help our customers create,
                 deliver and optimize content and applications.</p>
-            <div className="search-result-tags">
-                <div>adobe</div>
-                <div>design</div>
-                <div>creative</div>
-                <div>designer</div>
-                <div>photoshop</div>
-                <div>illustrator</div>
-            </div>
         </div>
     </div>
 </div>
     )};
 
-export default SearchResults;
+export default DetailPageSearchResults;
