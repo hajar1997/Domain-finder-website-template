@@ -14,7 +14,7 @@ function Routing(){
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="search" element={<Search />} />
-                    <Route path="about" element={<About />} />
+                    <Route path="aboutus" element={<About />} />
                     <Route path="/search/detail" element={<Detail />} />
                 </Routes>
             </React.Fragment>

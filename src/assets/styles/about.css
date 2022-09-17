@@ -1,0 +1,66 @@
+.about-us-container h6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #3B3A40;
+}
+
+
+.img-and-content-container {
+    position: absolute !important;
+    top: 18% !important;
+    width: 82% !important;
+    padding: 0;
+}
+
+.card {
+    border: none !important;
+}
+
+.card-body {
+
+    border: 1px solid #E8E7E8;
+    border-radius: 2px;
+}
+
+.about-img {
+    height: 100%;
+}
+
+
+.container-of-about {
+    margin-top: 45%;
+}
+
+@media (max-width: 991px) {
+    .about-img {
+        object-fit: cover;
+        height: 158px;
+    }
+
+    .container-of-about {
+        margin-top: 100%;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .container-of-about {
+        margin-top: 70%;
+    }
+}
+
+@media (max-width:768px) {
+    .img-and-content-container {
+        position: unset !important;
+        margin-bottom: 10%;
+
+    }
+
+    .container-of-about {
+        gap: 10%;
+        margin: 0 auto;
+    }
+}
